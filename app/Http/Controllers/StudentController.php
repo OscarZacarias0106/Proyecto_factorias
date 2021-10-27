@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 class StudentController extends Controller
 {
     public function sList(){
-        $data['Students'] =Student ::paginate(5);
+        $data['Students'] =Student ::paginate(10);
 
         return view('estudiantes.listar', $data);
     }
