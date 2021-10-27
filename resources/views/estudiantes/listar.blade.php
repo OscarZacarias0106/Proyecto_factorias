@@ -8,11 +8,11 @@
         <div  class="row justify-content-center">
             <div class="col-md-10">
 
-                <h2 class="text-center mb-5">Lista de Registro de Estudiantes</h2>
+                <h2 class="text-center mb-5 mt-5">Lista de Registro de Estudiantes</h2>
 
-                <table class="table table-bordered table-striped text-center  ">
+                <table class="table table-bordered table-striped">
                     <thead>
-                    <tr>
+                    <tr class="table table-bordered table-striped text-center p-3 mb-2 bg-success text-white ">
                         <th>Nombre</th>
                         <th>Apellido</th>
                         <th>Email</th>
