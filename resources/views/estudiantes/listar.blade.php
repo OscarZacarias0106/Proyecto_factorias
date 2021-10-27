@@ -19,17 +19,17 @@
                     </tr>
                     </thead>
                     <tbody>
-                    @foreach($students as $student)
+                    @foreach($Students as $Student)
                     <tr>
-                        <td>{{ $student->nombre }}</td>
-                        <td>{{ $student->apellido }}</td>
-                        <td>{{ $student->email }}</td>
+                        <td>{{ $Student->nombre }}</td>
+                        <td>{{ $Student->apellido }}</td>
+                        <td>{{ $Student->email }}</td>
                     <tr>
                     @endforeach
                     </tbody>
 
                 </table>
-
+                {{ $Students->links() }}
             </div>
 
         </div>
